@@ -3,13 +3,13 @@ import { CrashService } from '../../services/crash.service';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-galeria',
+  selector: 'app-galeria-completa',
   standalone: true,
   imports: [ CommonModule],
-  templateUrl: './galeria.component.html',
-  styleUrl: './galeria.component.css'
+  templateUrl: './galeria-completa.component.html',
+  styleUrl: './galeria-completa.component.css'
 })
-export class GaleriaComponent {
+export class GaleriaCompletaComponent {
 
   servicio= inject(CrashService)
 

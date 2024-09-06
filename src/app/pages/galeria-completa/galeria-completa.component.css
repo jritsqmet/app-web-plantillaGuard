@@ -34,17 +34,50 @@
     overflow: hidden;
     text-align: center;
     padding: 10px;
+    position: relative;
   }
   
   .gallery-item img {
     width: 100%;
     height: auto;
     border-radius: 10px;
+    object-fit: cover;
   }
   
-  .gallery-item p {
+  .gallery-info {
+    padding: 10px;
+  }
+  
+  .image-title {
+    font-size: 1.4rem;
+    color: #2c3e50;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .image-description {
     font-size: 1rem;
     color: #34495e;
-    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    text-align: left;
+  }
+  
+  .attributes {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+  }
+  
+  .attributes li {
+    font-size: 0.9rem;
+    color: #2c3e50;
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .attributes li:last-child {
+    border-bottom: none;
   }
   
